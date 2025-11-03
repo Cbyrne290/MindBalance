@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+#heading
+header {
+    background: green;
+    padding: 20px;
+    color: white;
+}
+#heading 1
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+}
+
+#Heading 2
+h2 {
+    color: darkgreen;
+    font-size: 28px;
+}
+#Heading 3
+h3 {
+    color: green;
+    font-size: 22px;
+}
+#Heading 4
+h4 {
+    color: #006400;
+    font-size: 18px;
+}
+#section for clearer content
+section {
+    padding: 25px;
+    margin: 20px;
+    background: white;
+}
+#box 2 seperate content
+.box {
+    background: #e8ffe8;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+}
+
+#for main sections or link 2 websites
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#nav a for menu appearance
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#nav a for menu appearance
+nav a:hover {
+    color: lightgreen;
+}
+
+#image 1
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 15px auto;
+}
+#signup box for putting information
+.signup-box {
+    background: #f0fff0;
+    padding: 20px;
+    border: 2px solid green;
+}
+#.price-info for layout 2 display pricing
+.price-info {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#price for clear straight forward prices
+.price {
+    font-size: 32px;
+    color: green;
+    font-weight: bold;
+}
+#input 2 collect users inputs
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #aaa;
+}
+#button 2 submit forms
+button {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#button 2 target the button when user hovers over it
+button:hover {
+    background: darkgreen;
+}
+#.contact-info 2 seperate contact details on a page
+.contact-info {
+    background: #f0fff0;
+    padding: 15px;
+}
+#.contact-info a 2 style and clickable links
+.contact-info a {
+    color: green;
+    text-decoration: none;
+}
+#footer 2 contain info/links/credits or contact info
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#paragraph element 
+p {
+    line-height: 1.5;
+    margin: 10px 0;
+}
+#subtitle for additional context 
+.subtitle {
+    font-style: italic;
+    color: #666;
+}
