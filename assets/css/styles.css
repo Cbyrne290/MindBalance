@@ -218,3 +218,33 @@ footer {
         font-size: 24px;
     }
 }
+/* --- FEATURES SECTION --- */
+#features {
+    padding: 7% 10%; /* Top/Bottom padding and side padding */
+    background-color: #f8f8f8; /* Light background to separate it */
+}
+
+.feature-box {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.feature-box h3 {
+    font-size: 1.5rem;
+    color: #4CAF50; /* A nice green color */
+    margin-top: 10px;
+}
+
+.feature-box i {
+    color: #4CAF50; /* Style the icons */
+}
+
+/* Ensure the features section also collapses nicely on small screens */
+@media (max-width: 768px) {
+    .feature-box {
+        border-bottom: 1px solid #eee; /* Add a line to separate them on mobile */
+    }
+    .feature-box:last-child {
+        border-bottom: none;
+    }
+}
