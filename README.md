@@ -35,9 +35,4 @@ To ensure the site functions as intended, thorough testing was conducted across 
 The site was tested on Chrome, Firefox, and Safari, with consistent rendering. On various screen sizes (mobile, tablet, desktop), media queries in CSS handled layout adjustments effectively.
 Interesting bugs discovered: Initially, CSS failed to load due to incorrect file paths; this was fixed by updating relative links. Validation errors from unclosed tags were resolved.
 Validator Testing
-
-Testing HTML
-No errors were returned when passing through the official W3C validator.
-Testing CSS
-No errors were found when passing through the official (Jigsaw) validator.
 ---------------
