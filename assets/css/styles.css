@@ -1,257 +1,125 @@
 /* ---
-   Mind Balance CSS Stylesheet
-   Fixes: 1.2, 2.6, 4.4, 4.5
+   Mind Balance Modern Theme
+   Colors: Sage Green, Cream, Charcoal
 --- */
 
-/* --- General Styles --- */
+:root {
+    --primary-color: #8FBC8F; /* Sage Green */
+    --secondary-color: #d4a373; /* Gold Accent */
+    --bg-color: #FAF9F6; /* Cream/Off-White */
+    --text-color: #333333; /* Charcoal Grey */
+    --white: #ffffff;
+}
+
 body {
-    /* --- FULL-WIDTH HERO SECTION --- */
+    font-family: 'Lato', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* --- Typography --- */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif; /* Fancy font for headings */
+    color: var(--primary-color);
+}
+
+/* --- Modern Header --- */
+header {
+    background-color: var(--white);
+    padding: 15px 5%;
+    display: flex; /* Makes items sit side-by-side */
+    justify-content: space-between; /* Pushes Logo left, Nav right */
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Soft shadow */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-container {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container i {
+    color: var(--secondary-color); /* Gold Icon */
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+/* --- Hero Section Update (The Image Overlay) --- */
 #hero-section {
-    /* 1. Set Image and Full Size */
-    background-image: url('https://images.unsplash.com/photo-1706657112092-4f620e1f2cbd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk5fHx3ZWxsYmVpbmd8ZW58MHwwfDB8fHww'); 
-    min-height: 600px; /* Set a minimum height for the section */
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat;
-    
-    /* 2. Style Text Container */
-    display: flex; /* Centers the text vertically */
+    /* Don't forget to put your background image URL back here! */
+    background-image: url('YOUR_IMAGE_URL_HERE'); 
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax scrolling effect */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white; /* Make the text white so it stands out */
-    padding: 0 10%;
+    padding: 0 20px;
 }
 
 .hero-text-container {
-    padding: 20px;
-    /* Optional: Add a subtle background behind the text to improve readability */
-    background-color: rgba(0, 0, 0, 0.4); 
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* White box see-through */
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 700px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-#hero-section h2 {
+.hero-text-container h2 {
     font-size: 3rem;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
-#hero-section p {
+.hero-text-container p {
     font-size: 1.2rem;
-    margin-bottom: 25px;
-}   
-   font-family: Arial, Helvetica, sans-serif;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
+    color: #555;
+    margin-bottom: 30px;
 }
 
-/* Added box-sizing to fix layout issues */
-* {
-    box-sizing: border-box;
+/* Modern Pill Button */
+.btn-success {
+    background-color: var(--primary-color) !important;
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 12px 35px !important;
+    font-size: 1rem !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
 }
 
-section {
-    padding: 25px;
-    margin: 20px;
-    background: white;
-}
-
-p {
-    margin: 10px 0;
-}
-
-.subtitle {
-    font-style: italic;
-    color: #666;
-}
-
-/* --- Headings --- */
-h1 {
-    text-align: center;
-    font-size: 36px;
-    margin: 0;
-}
-
-h2 {
-    color: darkgreen;
-    font-size: 28px;
-}
-
-h3 {
-    color: green;
-    font-size: 22px;
-}
-
-h4 {
-    color: #006400; /* darkgreen */
-    font-size: 18px;
-}
-
-/* --- Header & Navigation --- */
-header {
-    background: green;
-    padding: 20px;
-    color: white;
-}
-
-nav {
-    text-align: center;
-    margin-top: 15px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 18px;
-    padding: 5px;
-}
-
-nav a:hover {
-    color: lightgreen;
-    text-decoration: underline;
-}
-
-/* --- Page Content & Sections --- */
-.hero-box {
-    text-align: center;
-}
-
-img {
-    /* Set width in CSS, not HTML */
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: 15px auto;
-    height: auto; /* Added for responsiveness */
-}
-
-/* --- Class Schedule (Specific) --- */
-/* Changed from .box */
-.class-schedule-item {
-    background: #e8ffe8;
-    padding: 15px;
-    margin-bottom: 15px;
-    border: 1px solid #cccccc;
-}
-
-/* --- Form & Signup (Specific) --- */
-.signup-box {
-    background: #f0fff0;
-    padding: 20px;
-    border: 2px solid green;
-    /* Added display:flex for better layout */
-    display: flex;
-    flex-wrap: wrap; /* Allows items to wrap on small screens */
-    gap: 20px;
-}
-
-.price-info,
-#signup-form {
-    /* Each part takes up half the space */
-    flex: 1;
-    min-width: 280px; /* Prevents them from getting too squished */
-}
-
-.price-info {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.price {
-    font-size: 32px;
-    color: green;
-    font-weight: bold;
-}
-
-/* Style for new <label> tags */
-label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-    color: #333;
-}
-
-input[type="text"],
-input[type="tel"],
-input[type="email"] {
-    width: 100%;
-    padding: 8px;
-    margin: 8px 0;
-    border: 1px solid #aaa;
-}
-
-button {
-    background: green;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    font-size: 16px;
-    margin-top: 10px;
-    cursor: pointer; /* Added for better UX */
-}
-
-button:hover {
-    background: darkgreen;
-}
-
-/* --- Contact Info (Specific) --- */
-.contact-info {
-    background: #f0fff0;
-    padding: 15px;
-}
-
-.contact-info a {
-    color: green;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-/* --- Footer --- */
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
-}
-
-.attribution {
-    font-size: 0.8rem;
-    color: #ccc;
-    margin-top: 10px;
-}
-
-
-/* --- 
-   Responsive Design 
-   This makes the site look good on mobile phones.
---- */
-@media (max-width: 768px) {
-    nav a {
-        /* Stack navigation links vertically */
-        display: block;
-        margin: 10px 0;
-    }
-
-    .signup-box {
-        /* Stack the form and price info vertically */
-        flex-direction: column;
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
+.btn-success:hover {
+    background-color: #6c9a6c !important; /* Darker green */
+    transform: translateY(-3px); /* Moves up slightly */
+    box-shadow: 0 5px 15px rgba(143, 188, 143, 0.4);
 }
 /* --- FEATURES SECTION --- */
 #features {
