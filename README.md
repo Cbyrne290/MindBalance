@@ -3,7 +3,32 @@
 Mind Balance is a multi-page, responsive website designed for a modern wellness studio offering yoga, meditation, and mindfulness classes. The site aims to provide a calming, professional user experience while driving class sign-ups and registrations through clear calls to action.
 
 ---
+## Table of contents
 
+- [Introduction to project](#introduction-to-project)
+- [Goals](#goals)
+- [Overview of uers and needs](#overview-of-users-and-needs)  
+- [Specified user stories](#specified-user-stories)
+    - [Responsiveness and accessibility](#user-story-responsiveness-and-accessibility)
+    - [Contact information](#user-story-contact-information)
+    - [Find additional resources](#user-story-find-additional-resources)
+    - [Social media](#user-story-social-media)
+    - [Additional pictures](#user-story-additional-pictures)
+    - [Membership area, part 1](#user-story-membership-area-part-1)
+    - [Membership area, part 2](#user-story-membership-area-part-2)
+- [Discussion of user stories](#discussion-of-user-stories)
+- [Basic design of website and page requirements](#basic-design-of-website-and-page-requirements)
+- [Alternative outlines considered or tried](#alternative-outlines-considered-or-tried)
+- [Wireframes](#wireframes)
+- [Colors and fonts](#colors-and-fonts)
+- [Deployment](#deployment)
+- [Testing](#testing)
+    - [Lighthouse reports](#lighthouse-reports)
+    - [Resolved issues](#resolved-issues)
+    - [Remaining issues](#remaining-issues)
+- [Finished website](#finished-website)  
+- [Credits](#credits)
+---
 ##  User Experience (UX)
 
 The primary goal of this site is to create a welcoming, trustworthy online presence that converts visitors into new clients by making information and registration effortless.
