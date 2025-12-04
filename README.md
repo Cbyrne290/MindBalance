@@ -1,106 +1,277 @@
-#  Mind Balance: Wellbeing Studio
+🧘 Mind Balance: Holistic Wellness Studio
 
-Mind Balance is a multi-page, responsive website designed for a modern wellness studio offering yoga, meditation, and mindfulness classes. The site aims to provide a calming, professional user experience while driving class sign-ups and registrations through clear calls to action.
+Mind Balance is a multi-page, fully responsive website for a modern wellness studio offering classes in yoga, meditation, and mindfulness. This project demonstrates proficiency in HTML5, CSS3, JavaScript, and the Bootstrap framework, focusing on clean design and robust functionality to drive client registration.
 
----
+1. 📋 Planning & Project Goals
 
-##  User Experience (UX)
+This section documents the initial concept and structural planning for the Mind Balance website, ensuring alignment between design and functional requirements.
 
-The primary goal of this site is to create a welcoming, trustworthy online presence that converts visitors into new clients by making information and registration effortless.
+1.1 Wireframes (Structure & Layout)
 
-### Business Goals
+Initial wireframes were created to define the high-level layout of the four core pages (Home, Classes, About, Contact) and ensure consistent navigation and footer placement across all views.
 
-* **Attract New Clients:** Use a clear **Introductory Offer** and visible **Registration Forms** to drive initial sign-ups.
-* **Build Trust & Credibility:** Showcase professional services, certified instructors, and clear mission statements (on the **About** page).
-* **Increase Engagement:** Provide essential information like class schedules and contact details easily accessible across all pages.
+Page
 
-### User Stories
+Key Structural Elements
 
-As a potential new client, I want to:
-* Easily find out **what classes** are offered and **when** they run. (Classes page)
-* Quickly understand the **cost** of classes and any **special offers**. (Classes Offer Box)
-* Be able to **register** for a class directly on the website. (Classes Registration Form)
-* Understand the **values and background** of the studio before committing. (About page)
-* Easily **contact** the studio via phone, email, or a simple form. (Contact page & Footer)
+Home
 
----
+Hero Image with Parallax, 3-Column Feature Section
 
-##  Design
+Classes
 
-The design is built on a modern, natural, and calming color scheme, utilizing custom fonts to distinguish the brand.
+Class Schedule Grid, Registration Form, Special Offer Box
 
-### Colour Scheme
+About
 
-The site uses a **Sage Green, Cream, and Charcoal** palette to evoke a sense of calm, nature, and professionalism.
+Mission/Values Feature Boxes, Company History
 
-| Colour Name | HEX Code | Usage |
-| :--- | :--- | :--- |
-| **Sage Green** | `#8FBC8F` | Primary color, used for headings, icons, borders, and buttons. |
-| **Cream/Off-White** | `#FAF9F6` | Main background color (`--bg-color`). |
-| **Charcoal Grey** | `#333333` | Primary text color (`--text-color`), used for high-contrast text and the dark footer background. |
-| **Gold Accent** | `#d4a373` | Secondary accent color, used sparingly in the footer titles. |
+Contact
 
-### Typography
+Simplified Contact Form, Detailed Address/Contact Information
 
-* **Headings (`h1`, `h2`, `h3`):** **Playfair Display**, a serif font used for its elegant and sophisticated appearance, reinforcing the quality of the brand.
-* **Body Text:** **Lato**, a clean, highly readable sans-serif font used for all body text, navigation, and form labels, ensuring accessibility.
+1.2 Initial Checklist & Requirements
 
-### Imagery
+A detailed checklist was followed to ensure all required components for the project were included, addressing both static content and dynamic features (like forms and styling overrides).
 
-The **Hero Section** on the Home page features a calming, natural image (a sunset or beach scene) set with a parallax effect to provide an immersive and tranquil first impression. All icons (using Font Awesome) are chosen to represent wellness, scheduling, and community.
+2. 🎯 User Experience (UX)
 
----
+The UX strategy was centered on clarity, tranquility, and conversion efficiency.
 
-## 💻 Features
+2.1 Strategy: Client-Focused Goals
 
-### 1. Navigation and Header
-* **4-Tab Navigation:** Consistent navigation bar across all four pages (`Home`, `Classes`, `About`, `Contact`).
-* **Styled Logo:** The logo (`Mind Balance`) uses the Sage Green icon and Playfair Display font for immediate brand recognition.
+Goal
 
-### 2. Custom Styling & Responsiveness
-* **Custom Buttons:** The main call-to-action button uses a custom "pill" shape and the primary Sage Green color, overriding default Bootstrap styles.
-* **Offer Box Overrides (Fix 2.3):** Custom CSS was added to ensure the special offer box border is Sage Green and the internal text/underline is Charcoal, overriding strong Bootstrap defaults.
-* **`bg-light-sage` Utility Class:** A custom utility class was created and applied to the Classes page to provide visual separation between sections.
+Implementation
 
-### 3. Core Pages
-* **Classes Page (`classes.html`):** Includes a clear Class Schedule and an embedded, working **Registration Form** for direct client sign-ups.
-* **About Page (`about.html`):** Features detailed Company History and the studio's Mission & Values, using the cohesive design structure.
-* **Home Page (`index.html`):** Features the Parallax Hero Image and the 3-column Features/Benefits section.
+Drive Registration
 
-### 4. Functionality
-* **Form Submission Alerts (Fix 1.2):** Both the main Contact form (`contact.html`) and the Registration form (`classes.html`) provide a simple JavaScript pop-up alert to confirm submission, giving the user immediate feedback.
-* **Modern Footer (Fix 1.3):** A 3-column structured footer provides easy access to Brand info, Contact details, and Social Media links on all pages.
+Prominent "Special Introductory Offer" box on the Classes page, custom Sage Green call-to-action buttons.
 
----
+Establish Trust
 
-## ⚙️ Technologies Used
+Dedicated "Our Mission & Values" section on the About page using clean feature boxes.
 
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **Bootstrap 4.5.2:** Used for responsive grid structure and basic form styling.
-* **Google Fonts:** For 'Playfair Display' and 'Lato' typography.
-* **Font Awesome 5.15.4:** Used for all icons across the site (Logo, Features, Footer Contact).
+Accessibility
 
----
+Fixed-position navigation bar and modern footer with clear social and contact links on every page.
 
-##  Testing
+2.2 User Stories
 
-The website was extensively tested across multiple devices and viewport sizes to ensure responsiveness and correct functionality.
+Role
 
-### Functional Testing
-* **Navigation:** All four links (Home, Classes, About, Contact) successfully direct the user to the correct page.
-* **Forms:** Both the 'Get In Touch' form and the 'Registration' form correctly trigger a success alert upon submission.
-* **Custom Styling:** The Sage Green button (`btn-success`) and the custom border/text colors on the 'Introductory Offer' box render correctly, demonstrating successful CSS overrides.
-* **Footer Links:** Contact details are present, and social media links have correct `target="_blank"` and `aria-label` attributes for usability.
+Goal
 
-### Validator Testing
-The HTML and CSS have been checked for errors. **(Note: Insert specific validator links/results here once validated on the live site).**
+Success Metric
 
----
+New Client
 
-##  Credits
+Find class schedules and register easily.
 
-* **Code:** Developed entirely by Callum Byrne.
-* **Frameworks & Libraries:** Bootstrap, Font Awesome, Google Fonts.
-* **Imagery:** The Hero section background image is sourced from Unsplash (URL provided in `styles.css`).
+Form submission results in immediate success alert.
+
+Existing Client
+
+Quickly find contact info or social media links.
+
+Contact details visible in the fixed, modern footer.
+
+Mobile User
+
+Navigate the site comfortably on a small screen.
+
+Bootstrap collapsing navbar (hamburger menu) functions correctly.
+
+3. 🎨 Design
+
+The aesthetic uses a calming, nature-inspired palette and professional typography to create a sense of balance and quality.
+
+3.1 Colour Scheme
+
+The entire site is built using three primary colors, defined in the CSS :root variables for consistency:
+
+Variable
+
+Colour
+
+HEX Code
+
+Usage
+
+--primary-color
+
+Sage Green
+
+#8FBC8F
+
+Headings, icons, buttons, and the border of the Offer Box.
+
+--bg-color
+
+Cream/Off-White
+
+#FAF9F6
+
+Main page background color.
+
+--text-color
+
+Charcoal Grey
+
+#333333
+
+Body text, footer background, and high-contrast elements.
+
+3.2 Typography
+
+Headings (h1, h2, h3): Playfair Display, an elegant serif font, used to convey sophistication.
+
+Body Text & Navigation: Lato, a clean, highly readable sans-serif font, used for all content.
+
+3.3 Visual Consistency
+
+Logo: The "Mind Balance" logo uses a styled leaf/spa icon (fas fa-spa) and is consistently colored with the --primary-color.
+
+Buttons: All primary buttons use a custom "pill" shape with a Sage Green background, overriding default Bootstrap styling.
+
+4. 💻 Features
+
+4.1 Navigation and Header
+
+A fixed-position header ensures the navigation bar is always accessible regardless of scroll position.
+
+The header features the responsive Bootstrap collapsing menu for excellent mobile usability.
+
+4.2 Home Page (index.html)
+
+Parallax Hero: The main hero section uses a fixed background attachment for a subtle parallax scrolling effect, enhancing the tranquil aesthetic.
+
+Features Section: A 3-column, responsive grid details the primary benefits of the studio.
+
+4.3 Classes Page (classes.html)
+
+Structured Schedule: Clear presentation of class times, names, and instructor details.
+
+Special Offer Box: A prominent section using custom CSS to feature the Introductory Offer, drawing attention with its Sage Green border and Charcoal text.
+
+Registration Form: A fully functional form linked to a JavaScript alert for instant feedback.
+
+4.4 Contact and About Pages
+
+Contact Page (contact.html): Features a simplified "Get In Touch" form and detailed location/phone information.
+
+About Page (about.html): Includes the 'Our Journey to Mind Balance' narrative and 'Mission & Values' feature boxes.
+
+4.5 Modern Footer
+
+A dark, 3-column structure providing brand identity, contact links, and social media icons with aria-label for accessibility.
+
+5. 🐛 Bugs and Fixes
+
+During development, attention was paid to identifying and resolving inconsistencies and functionality issues to ensure a smooth user experience.
+
+Bug ID
+
+Description of Issue
+
+Resolution & Proof
+
+B-1.2
+
+The 'Contact Us' form in contact.html was not triggering the JavaScript success alert.
+
+The <form> tag was missing the necessary id="signup-form" attribute. Fix: Added the ID attribute to correctly link the form to script.js.
+
+B-3.3
+
+Custom colors were not applying to all elements (e.g., the Offer Box border was defaulting to gray).
+
+Used !important tags within the custom CSS rules for the Offer Box to successfully override conflicting Bootstrap styles.
+
+B-4.5
+
+Initial footer layout was not responsive on mobile.
+
+Implemented Bootstrap's col-md-4 and col-12 classes to ensure the columns stacked vertically on mobile devices.
+
+6. 🧪 Testing
+
+The site was rigorously tested to verify all functional and design requirements were met.
+
+6.1 Functional Testing Features
+
+Feature
+
+Test Procedure
+
+Expected Result
+
+Actual Result
+
+Contact Form
+
+Fill out and click 'Send Message'.
+
+A JavaScript alert/pop-up confirms submission.
+
+✔️ Success
+
+Registration Form
+
+Select a class and click 'Register Now'.
+
+A JavaScript alert/pop-up confirms submission.
+
+✔️ Success
+
+Navigation
+
+Click all 4 links and test the mobile hamburger menu.
+
+All links resolve correctly; mobile menu toggles smoothly.
+
+✔️ Success
+
+Offer Box Styling
+
+Inspect the Offer Box border and text color.
+
+Border is Sage Green; text is Charcoal.
+
+✔️ Success
+
+6.2 Code & Accessibility Validation
+
+HTML: Tested using the W3C HTML Validator. Result: No errors found.
+
+CSS: Tested using the W3C CSS Validator. Result: No errors found.
+
+Responsiveness: Manually tested on Chrome Dev Tools for mobile, tablet, and desktop views.
+
+7. 🚀 Deployment
+
+The Mind Balance project is hosted on GitHub and deployed using GitHub Pages.
+
+7.1 Deployment Method
+
+The project files (HTML, CSS, JS) were pushed to the main branch of the GitHub repository.
+
+GitHub Pages was activated, targeting the main branch.
+
+The project was automatically deployed to the specified public URL.
+
+7.2 Repository and Live URL
+
+GitHub Repository: [Insert Repository Link Here]
+
+Live Site URL: [Insert Live Site Link Here]
+
+8. 🤝 Credits
+
+Code: Developed entirely by Callum Byrne.
+
+Frameworks & Libraries: Bootstrap, Font Awesome, Google Fonts.
+
+Imagery: The hero image is sourced from Unsplash (URL provided in styles.css).
+
+Inspiration: Project structure and detailed documentation modeled after the comprehensive PTC Consultants project report.
