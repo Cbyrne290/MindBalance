@@ -1,4 +1,4 @@
-# 🧘 Mind Balance: Holistic Wellness Studio
+# 🧘 Mind Balance: Holistic Studio
 
 Mind Balance is a multi-page, responsive website designed for a modern wellness studio offering yoga, meditation, and mindfulness classes. The site aims to provide a calming, professional user experience while driving class sign-ups and registrations through clear calls to action.
 
