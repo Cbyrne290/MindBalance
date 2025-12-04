@@ -27,47 +27,39 @@
     </nav>
 </header>
     <main>
-        <section id="signup">
-            <h2>Sign Up</h2>
-            <div class="signup-box">
-                <div class="price-info">
-                    <h3>Special Offer</h3>
-                    <p class="price">50€</p>
-                    <p>5 Class Package</p>
-                </div>
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Get In Touch</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" name="fullName" required>
+                    </div>
 
-                <form id="signup-form">
-                    <h3>Registration</h3>
-                    
-                    <label for="full-name">Full Name</label>
-                    <input type="text" id="full-name" placeholder="Full Name" required>
-                    
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" placeholder="Phone Number" required>
-                    
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" placeholder="Email Address" required>
-                    
-                    <button type="submit">Submit</button>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-success btn-lg">Send Message</button>
+                    </div>
                 </form>
             </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p class="subtitle">Got a question? Get in touch</p>
-
-            <div class="contact-info">
-                <p>📞 Phone: +353871234567</p>
-                <p>✉️ Email: info@mindfulbalance.ie</p>
-                <p>📍 Address: 123 Wellness Street, Dublin 2, Ireland</p>
-                <p><a href="https://facebook.com" target="_blank">Facebook</a></p>
-                <p><a href="https://instagram.com" target="_blank">Instagram</a></p>
-                <p><a href="https://twitter.com" target="_blank">Twitter</a></p>
-            </div>
-        </section>
-    </main>
-
+        </div>
+    </section>
+</main>
     <footer>
     <div class="footer-content">
         <div class="footer-brand">
