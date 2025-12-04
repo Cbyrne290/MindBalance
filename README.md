@@ -1,10 +1,10 @@
-# 🧘 Mind Balance: Wellbeing Studio
+#  Mind Balance: Wellbeing Studio
 
 Mind Balance is a multi-page, responsive website designed for a modern wellness studio offering yoga, meditation, and mindfulness classes. The site aims to provide a calming, professional user experience while driving class sign-ups and registrations through clear calls to action.
 
 ---
 
-## 🎯 User Experience (UX)
+##  User Experience (UX)
 
 The primary goal of this site is to create a welcoming, trustworthy online presence that converts visitors into new clients by making information and registration effortless.
 
@@ -25,7 +25,7 @@ As a potential new client, I want to:
 
 ---
 
-## 🎨 Design
+##  Design
 
 The design is built on a modern, natural, and calming color scheme, utilizing custom fonts to distinguish the brand.
 
@@ -84,7 +84,7 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 The website was extensively tested across multiple devices and viewport sizes to ensure responsiveness and correct functionality.
 
@@ -99,7 +99,7 @@ The HTML and CSS have been checked for errors. **(Note: Insert specific validato
 
 ---
 
-## 👏 Credits
+##  Credits
 
 * **Code:** Developed entirely by Callum Byrne.
 * **Frameworks & Libraries:** Bootstrap, Font Awesome, Google Fonts.
