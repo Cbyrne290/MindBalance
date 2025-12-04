@@ -25,6 +25,18 @@ body {
     /* Define the light sage background color */
     background-color: #f0f7f4; 
 }
+/* --- Offer Box Overrides (To ensure Sage Green theme is used) --- */
+
+/* Targets the main offer box border */
+.offer-box-container {
+    border-color: var(--primary-color) !important; /* Forces Sage Green border */
+}
+
+/* Targets the text inside the offer box */
+.offer-box-container p {
+    color: var(--text-color) !important; /* Forces Charcoal Black text */
+    text-decoration-color: var(--text-color) !important; /* Forces Charcoal Black underline/color */
+}
 /* --- Typography --- */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif; /* Fancy font for headings */
