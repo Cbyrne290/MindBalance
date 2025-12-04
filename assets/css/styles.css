@@ -8,7 +8,7 @@ body {
     /* --- FULL-WIDTH HERO SECTION --- */
 #hero-section {
     /* 1. Set Image and Full Size */
-    background-image: url('https://images.unsplash.com/photo-1593348196396-6092a8e2d640?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdlbGxiZWluZ3xlbnwwfHwwfHx8MA%3D%3D'); 
+    background-image: url('https://images.unsplash.com/photo-1706657112092-4f620e1f2cbd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk5fHx3ZWxsYmVpbmd8ZW58MHwwfDB8fHww'); 
     min-height: 600px; /* Set a minimum height for the section */
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center; /* Centers the image */
