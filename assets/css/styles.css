@@ -116,34 +116,24 @@ nav a:hover {
     box-shadow: 0 5px 15px rgba(143, 188, 143, 0.4);
 }
 /* --- FEATURES SECTION --- */
-
-/* 1. Target the icons (Font Awesome) and color them Sage Green */
+/* --- FEATURES SECTION COLORING --- */
 .feature-box i {
     color: var(--primary-color); /* This is your Sage Green: #8FBC8F */
-    font-size: 3rem; /* Make the icons big and noticeable */
+    font-size: 3rem; 
     margin-bottom: 15px;
     transition: color 0.3s;
 }
 
-/* Optional: Add a subtle effect when hovering over the icons */
 .feature-box:hover i {
     color: #6c9a6c; /* Slightly darker sage on hover */
 }
 
-/* 2. Target the titles and ensure they match the page titles */
 .feature-box h3 {
     font-family: 'Playfair Display', serif;
     color: var(--text-color); /* Dark Charcoal for contrast */
     margin-bottom: 10px;
-}/* Ensure the features section also collapses nicely on small screens */
-@media (max-width: 768px) {
-    .feature-box {
-        border-bottom: 1px solid #eee; /* Add a line to separate them on mobile */
-    }
-    .feature-box:last-child {
-        border-bottom: none;
-    }
 }
+
 
 /* --- 
    Responsive Design (Fix 2.6) 
