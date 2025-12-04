@@ -71,7 +71,7 @@ nav a:hover {
 /* --- Hero Section Update (The Image Overlay) --- */
 #hero-section {
     /* *** PASTE YOUR NEW IMAGE URL HERE *** */
-    background-image: url('YOUR_NEW_HIGH_QUALITY_IMAGE_URL_HERE'); 
+    background-image: url('https://images.unsplash.com/photo-1555980307-720622e25eec?q=80&w=2833&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
     
     min-height: 80vh;
     background-size: cover;
@@ -167,5 +167,85 @@ nav a:hover {
 
     h2 {
         font-size: 24px;
+    }
+}
+/* --- MODERN FOOTER STYLES --- */
+footer {
+    background-color: var(--text-color); /* Dark Charcoal background */
+    color: var(--bg-color); /* Cream text */
+    padding: 40px 5%;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 30px;
+}
+
+.footer-content > div {
+    flex-basis: 30%; /* Distribute space */
+    margin-bottom: 20px;
+}
+
+.footer-brand i {
+    color: var(--primary-color); /* Sage Green icon */
+    font-size: 2.5rem;
+}
+
+.footer-brand h3 {
+    color: var(--white); /* White title */
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-contact h4, .footer-social h4 {
+    color: var(--secondary-color); /* Gold Accent titles */
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+
+.footer-contact p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+/* Social Icons */
+.footer-social a {
+    color: var(--bg-color); /* Cream icon color */
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: var(--primary-color); /* Sage Green on hover */
+}
+
+.footer-copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-content > div {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+    .footer-social {
+        padding-top: 10px;
+    }
+    .footer-social a {
+        margin: 0 10px;
     }
 }
