@@ -1,267 +1,246 @@
-/* ---
-   Mind Balance Modern Theme
-   Colors: Sage Green, Cream, Charcoal
---- */
+
+/* -------------------------------------------
+ * 1. ROOT VARIABLES & GLOBAL STYLES
+ * -------------------------------------------
+ */
 
 :root {
-    --primary-color: #8FBC8F; /* Sage Green */
+    /* Color Palette */
+    --primary-color: #8FBC8F; /* Sage Green - Headings, Buttons, Accents */
+    --bg-color: #FAF9F6;    /* Cream/Off-White - Background */
+    --text-color: #333333;  /* Charcoal Grey - Body Text, Dark Footer */
     --secondary-color: #d4a373; /* Gold Accent */
-    --bg-color: #FAF9F6; /* Cream/Off-White */
-    --text-color: #333333; /* Charcoal Grey */
-    --white: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: var(--bg-color);
     color: var(--text-color);
+    background-color: var(--bg-color);
     margin: 0;
-    padding: 0;
+    padding-top: 56px; /* Space for the fixed navbar */
+}
+
+/* -------------------------------------------
+ * 2. TYPOGRAPHY & HEADINGS
+ * -------------------------------------------
+ */
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+p {
     line-height: 1.6;
 }
 
-/* Custom Utility Class for Light Background */
-.bg-light-sage {
-    /* Define the light sage background color */
-    background-color: #f0f7f4; 
-}
-/* --- Offer Box Overrides (To ensure Sage Green theme is used) --- */
+/* -------------------------------------------
+ * 3. NAVIGATION & HEADER
+ * -------------------------------------------
+ */
 
-/* Targets the main offer box border */
-.offer-box-container {
-    border-color: var(--primary-color) !important; /* Forces Sage Green border */
-}
-
-/* Targets the text inside the offer box */
-.offer-box-container p {
-    color: var(--text-color) !important; /* Forces Charcoal Black text */
-    text-decoration-color: var(--text-color) !important; /* Forces Charcoal Black underline/color */
-}
-/* --- Typography --- */
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif; /* Fancy font for headings */
-    color: var(--primary-color);
+.navbar {
+    background-color: var(--bg-color) !important;
+    border-bottom: 1px solid rgba(143, 188, 143, 0.3); /* Light primary border */
+    position: fixed; /* Ensures it stays visible */
+    width: 100%;
+    top: 0;
+    z-index: 1020; /* High z-index to overlay content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-/* --- Header Styling: Logo Fix & 4-Tab Navigation --- */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 5%;
-    background-color: var(--bg-color); /* Cream background */
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-}
-
-.logo-container i {
-    color: var(--primary-color); /* Sage Green logo */
-    font-size: 1.8rem;
-    margin-right: 8px;
-}
-
-.logo-container span {
+.navbar-brand {
+    color: var(--primary-color) !important;
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--text-color);
 }
 
-/* Navigation Links Styling */
-header nav a {
-    color: var(--text-color);
-    margin-left: 20px;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    transition: color 0.3s;
+.nav-link {
+    color: var(--text-color) !important;
+    transition: color 0.3s ease;
 }
 
-header nav a:hover {
-    color: var(--primary-color);
-}
-/* --- Hero Section Update (The Image Overlay) --- */
-#hero-section {
-    /* Don't forget to put your background image URL back here! */
-    background-image: url('https://images.unsplash.com/photo-1555980307-720622e25eec?q=80&w=2833&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
-    min-height: 80vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* Parallax scrolling effect */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 20px;
+.nav-link:hover {
+    color: var(--primary-color) !important;
 }
 
-.hero-text-container {
-    background-color: rgba(255, 255, 255, 0.9); /* White box see-through */
-    padding: 40px;
-    border-radius: 8px;
-    max-width: 700px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-}
 
-.hero-text-container h2 {
-    font-size: 3rem;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
+/* -------------------------------------------
+ * 4. BUTTONS & FORMS (Custom Styles)
+ * -------------------------------------------
+ */
 
-.hero-text-container p {
-    font-size: 1.2rem;
-    color: #555;
-    margin-bottom: 30px;
-}
-
-/* Modern Pill Button */
-.btn-success {
-    background-color: var(--primary-color) !important;
-    border: none !important;
-    border-radius: 50px !important;
-    padding: 12px 35px !important;
-    font-size: 1rem !important;
+.btn-custom-pill {
+    /* Custom button to override Bootstrap defaults */
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px; /* Pill shape */
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
     transition: all 0.3s ease;
 }
 
-.btn-success:hover {
-    background-color: #6c9a6c !important; /* Darker green */
-    transform: translateY(-3px); /* Moves up slightly */
-    box-shadow: 0 5px 15px rgba(143, 188, 143, 0.4);
-}
-/* --- FEATURES SECTION --- */
-#features {
-    padding: 7% 10%; /* Top/Bottom padding and side padding */
-    background-color: #f8f8f8; /* Light background to separate it */
+.btn-custom-pill:hover {
+    background-color: var(--text-color); /* Darker on hover */
+    border-color: var(--text-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.feature-box {
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(143, 188, 143, 0.25); /* Light primary glow */
+}
+
+/* -------------------------------------------
+ * 5. HOME PAGE: HERO SECTION (Parallax Effect)
+ * -------------------------------------------
+ */
+
+.hero-section {
+    /* Placeholder for the large background image */
+    background-image: url('https://placehold.co/1920x800/8FBC8F/FFFFFF?text=Mind+Balance+Hero'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* CRITICAL for Parallax Effect */
+    height: 80vh; 
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
     padding: 20px;
-    margin: 20px 0;
 }
 
-.feature-box h3 {
-    font-size: 1.5rem;
-    color: #4CAF50; /* A nice green color */
-    margin-top: 10px;
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for text readability */
+    padding: 2rem;
+    border-radius: 10px;
 }
 
-.feature-box i {
-    color: #4CAF50; /* Style the icons */
+.hero-content h1 {
+    color: white; 
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
 }
 
-/* Ensure the features section also collapses nicely on small screens */
-@media (max-width: 768px) {
-    .feature-box {
-        border-bottom: 1px solid #eee; /* Add a line to separate them on mobile */
-    }
-    .feature-box:last-child {
-        border-bottom: none;
-    }
+.hero-content p {
+    font-size: 1.25rem;
 }
 
-/* --- FEATURES SECTION COLORING --- */
-.feature-box i {
-    color: var(--primary-color); /* This is your Sage Green: #8FBC8F */
-    font-size: 3rem; 
-    margin-bottom: 15px;
-    transition: color 0.3s;
+/* -------------------------------------------
+ * 6. CLASSES PAGE: SPECIAL OFFER BOX
+ * -------------------------------------------
+ */
+
+.offer-box {
+    border: 3px solid var(--primary-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: rgba(143, 188, 143, 0.1); /* Very light green background */
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
-.feature-box:hover i {
-    color: #6c9a6c; /* Slightly darker sage on hover */
+.offer-box h3 {
+    color: var(--text-color); /* Use charcoal for high contrast */
 }
 
-.feature-box h3 {
-    font-family: 'Playfair Display', serif;
-    color: var(--text-color); /* Dark Charcoal for contrast */
-    margin-bottom: 10px;
+.class-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s;
 }
 
-/* --- MODERN FOOTER STYLES --- */
+.class-card:hover {
+    transform: translateY(-5px);
+}
+
+/* -------------------------------------------
+ * 7. FOOTER
+ * -------------------------------------------
+ */
+
 footer {
-    background-color: var(--text-color); /* Dark Charcoal background */
-    color: var(--bg-color); /* Cream text */
-    padding: 40px 5%;
+    background-color: var(--text-color); /* Charcoal Grey background */
+    color: #f1f1f1; /* Light text for contrast */
+    padding: 3rem 0;
     font-size: 0.9rem;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 30px;
-}
-
-.footer-content > div {
-    flex-basis: 30%; /* Distribute space */
-    margin-bottom: 20px;
-}
-
-.footer-brand i {
-    color: var(--primary-color); /* Sage Green icon */
-    font-size: 2.5rem;
-}
-
-.footer-brand h3 {
-    color: var(--white); /* White title */
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-.footer-contact h4, .footer-social h4 {
-    color: var(--secondary-color); /* Gold Accent titles */
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 15px;
-}
-
-.footer-contact p {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 8px;
-}
-
-/* Social Icons */
-.footer-social a {
-    color: var(--bg-color); /* Cream icon color */
-    font-size: 1.5rem;
-    margin-right: 15px;
+footer a {
+    color: var(--primary-color); /* Sage Green links in the footer */
+    text-decoration: none;
     transition: color 0.3s;
 }
 
-.footer-social a:hover {
-    color: var(--primary-color); /* Sage Green on hover */
+footer a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
 }
 
-.footer-copyright {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.6);
+.social-icons a {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: var(--primary-color);
 }
 
-/* Responsive Footer */
+
+/* -------------------------------------------
+ * 8. MEDIA QUERIES (Responsiveness)
+ * -------------------------------------------
+ */
+
+/* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .navbar-collapse {
         text-align: center;
+        background-color: var(--bg-color);
     }
-    .footer-content > div {
-        flex-basis: 100%;
-        margin-bottom: 25px;
+    
+    /* Center the footer columns on mobile */
+    footer .col-md-4 {
+        text-align: center;
+        margin-bottom: 1.5rem;
     }
-    .footer-social {
-        padding-top: 10px;
+}
+
+/* Small devices (phones, 576px and up) */
+@media (max-width: 576px) {
+    body {
+        padding-top: 56px;
     }
-    .footer-social a {
-        margin: 0 10px;
+    .hero-section {
+        height: 60vh;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .btn-custom-pill {
+        width: 100%;
+        margin-top: 10px;
     }
 }
