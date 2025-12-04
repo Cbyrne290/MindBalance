@@ -27,6 +27,57 @@
     </nav>
 </header>
     <main>
+    <section class="container-fluid py-5 text-center bg-light-sage">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <h2 class="display-4 text-primary font-weight-bold mb-3">Special Introductory Offer</h2>
+                <p class="lead mb-4">Jumpstart your journey to balance and clarity with our special package!</p>
+                <div class="p-4 bg-white shadow-sm rounded mx-auto" style="max-width: 400px;">
+                    <h3 class="text-secondary mb-0">5 Sessions for only 50€</h3>
+                    <p class="text-muted mt-2">Limited time offer for new clients only.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <h2 class="text-center mb-5">Register Now</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form id="registrationForm">
+                    <div class="form-group">
+                        <label for="regName">Full Name</label>
+                        <input type="text" class="form-control" id="regName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="regEmail">Email Address</label>
+                        <input type="email" class="form-control" id="regEmail" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="regPhone">Phone Number</label>
+                        <input type="tel" class="form-control" id="regPhone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="regClass">Select Your Class</label>
+                        <select class="form-control" id="regClass" required>
+                            <option value="" disabled selected>Choose a class...</option>
+                            <option value="Morning Yoga">Morning Yoga</option>
+                            <option value="Evening Meditation">Evening Meditation</option>
+                            <option value="Children's Mindfulness">Children's Mindfulness</option>
+                        </select>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-success btn-lg">Submit Registration</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <section class="container-fluid py-5">
         <h2 class="text-center mb-5">Our Class Schedule</h2>
         
@@ -56,8 +107,8 @@
             </div>
         </div>
     </section>
-</main>
-    <footer>
+</main>    
+        f<footer>
     <div class="footer-content">
         <div class="footer-brand">
             <i class="fas fa-spa"></i>
@@ -83,7 +134,17 @@
         &copy; 2025 Mind Balance. All rights reserved.
     </div>
 </footer>
-
-    <script src="assets/js/script.js"></script>
+<script>
+    document.getElementById('registrationForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Stop the form from submitting normally
+        
+        // Simple success pop-up message
+        alert('Thank you for registering! We will contact you shortly to confirm your booking.');
+        
+        // Optional: Clear the form fields after submission
+        this.reset();
+    });
+</script>    
+        <script src="assets/js/script.js"></script>
 </body>
 </html>
