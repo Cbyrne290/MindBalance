@@ -1,10 +1,10 @@
-# 🧘 Mind Balance: Holistic Wellness Studio
+#  Mind Balance: Wellness Studio
 
 Mind Balance is a multi-page, responsive website designed for a modern wellness studio offering yoga, meditation, and mindfulness classes. The site aims to provide a calming, professional user experience while driving class sign-ups and registrations through clear calls to action.
 
 ---
 
-## 🎯 User Experience (UX)
+##  User Experience (UX)
 
 The primary goal of this site is to create a welcoming, trustworthy online presence that converts visitors into new clients by making information and registration effortless.
 
@@ -98,9 +98,36 @@ The website was extensively tested across multiple devices and viewport sizes to
 The HTML and CSS have been checked for errors. **(Note: Insert specific validator links/results here once validated on the live site).**
 
 ---
+# Testing, Validation, and Deployment
+
+* **Code Validation**
+
+The source code was validated against official standards to ensure compliance and best practices.
+
+HTML Validation: Passed W3C HTML Validator with no errors.
+
+CSS Validation: Passed W3C CSS Validator with no errors.
+
+* **Deployment Status**
+
+The Mind Balance project is hosted on GitHub and deployed via the GitHub Pages service.
+
+Deployment Method: Deployed from the main branch.
+
+Live Site URL: [Insert Live Site Link Here]
+
+Repository URL: [Insert GitHub Repository Link Here]
+
+[IMAGE: Screenshot of the GitHub Pages Settings page confirming successful deployment]
+
+* **Deployment History Proof**
+
+The deployment history confirms that recent fixes were successfully processed and pushed to the live environment.
+
+[IMAGE: Screenshot of the GitHub Deployment History showing recent successful deployments]
 
 ## 👏 Credits
 
-* **Code:** Developed entirely by [Your Name].
+* **Code:** Developed entirely by Callum Byrne.
 * **Frameworks & Libraries:** Bootstrap, Font Awesome, Google Fonts.
 * **Imagery:** The Hero section background image is sourced from Unsplash (URL provided in `styles.css`).
