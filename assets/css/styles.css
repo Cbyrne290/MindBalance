@@ -25,49 +25,46 @@ h1, h2, h3 {
     font-family: 'Playfair Display', serif; /* Fancy font for headings */
     color: var(--primary-color);
 }
-
-/* --- Modern Header --- */
+/* --- Header Styling: Logo Fix & 4-Tab Navigation --- */
 header {
-    background-color: var(--white);
-    padding: 15px 5%;
-    display: flex; /* Makes items sit side-by-side */
-    justify-content: space-between; /* Pushes Logo left, Nav right */
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Soft shadow */
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    padding: 15px 5%;
+    background-color: var(--bg-color); /* Cream background */
 }
 
 .logo-container {
-    font-family: 'Playfair Display', serif;
-    font-size: 26px;
-    font-weight: bold;
-    color: var(--primary-color);
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .logo-container i {
-    color: var(--secondary-color); /* Gold Icon */
+    color: var(--primary-color); /* Sage Green logo */
+    font-size: 1.8rem;
+    margin-right: 8px;
 }
 
-nav a {
+.logo-container span {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: var(--text-color);
-    text-decoration: none;
+}
+
+/* Navigation Links Styling */
+header nav a {
+    color: var(--text-color);
     margin-left: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     transition: color 0.3s;
 }
 
-nav a:hover {
+header nav a:hover {
     color: var(--primary-color);
 }
-
 /* --- Hero Section Update (The Image Overlay) --- */
 #hero-section {
     /* Don't forget to put your background image URL back here! */
