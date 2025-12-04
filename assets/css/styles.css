@@ -1,250 +1,172 @@
-* * MIND BALANCE: HOLISTIC WELLNESS STUDIO STYLESHEET
- * This file is written using standard CSS3 practices and is guaranteed 
- * to pass the W3C Jigsaw Validator without errors.
- */
-
-/* -------------------------------------------
- * 1. ROOT VARIABLES & GLOBAL STYLES
- * -------------------------------------------
- */
+/* ---
+   Mind Balance Modern Theme
+   Colors: Sage Green, Cream, Charcoal
+--- */
 
 :root {
-    /* Color Palette */
-    --primary-color: #8FBC8F; /* Sage Green - Headings, Buttons, Accents */
-    --bg-color: #FAF9F6;    /* Cream/Off-White - Background */
-    --text-color: #333333;  /* Charcoal Grey - Body Text, Dark Footer */
+    --primary-color: #8FBC8F; /* Sage Green */
     --secondary-color: #d4a373; /* Gold Accent */
-}
-
-html {
-    scroll-behavior: smooth;
+    --bg-color: #FAF9F6; /* Cream/Off-White */
+    --text-color: #333333; /* Charcoal Grey */
+    --white: #ffffff;
 }
 
 body {
     font-family: 'Lato', sans-serif;
-    color: var(--text-color);
     background-color: var(--bg-color);
+    color: var(--text-color);
     margin: 0;
-    padding-top: 56px; /* Space for the fixed navbar */
-}
-
-/* -------------------------------------------
- * 2. TYPOGRAPHY & HEADINGS
- * -------------------------------------------
- */
-
-h1, h2, h3, h4 {
-    font-family: 'Playfair Display', serif;
-    color: var(--primary-color);
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }
-
-p {
+    padding: 0;
     line-height: 1.6;
 }
 
-/* -------------------------------------------
- * 3. NAVIGATION & HEADER
- * -------------------------------------------
- */
-
-.navbar {
-    background-color: var(--bg-color) !important;
-    border-bottom: 1px solid rgba(143, 188, 143, 0.3); /* Light primary border */
-    position: fixed; /* Ensures it stays visible */
-    width: 100%;
-    top: 0;
-    z-index: 1020; /* High z-index to overlay content */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-.navbar-brand {
-    color: var(--primary-color) !important;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-}
-
-.nav-link {
-    color: var(--text-color) !important;
-    transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-    color: var(--primary-color) !important;
-}
-
-
-/* -------------------------------------------
- * 4. BUTTONS & FORMS (Custom Styles)
- * -------------------------------------------
- */
-
-.btn-custom-pill {
-    /* Custom button to override Bootstrap defaults */
-    background-color: var(--primary-color);
-    border: 2px solid var(--primary-color);
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border-radius: 50px; /* Pill shape */
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-}
-
-.btn-custom-pill:hover {
-    background-color: var(--text-color); /* Darker on hover */
-    border-color: var(--text-color);
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.form-control:focus {
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 0.25rem rgba(143, 188, 143, 0.25); /* Light primary glow */
-}
-
-/* -------------------------------------------
- * 5. HOME PAGE: HERO SECTION (Parallax Effect)
- * -------------------------------------------
- */
-
-.hero-section {
-    /* Placeholder for the large background image */
-    background-image: url('https://placehold.co/1920x800/8FBC8F/FFFFFF?text=Mind+Balance+Hero'); 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* CRITICAL for Parallax Effect */
-    height: 80vh; 
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
-    padding: 20px;
-}
-
-.hero-content {
-    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for text readability */
-    padding: 2rem;
-    border-radius: 10px;
-}
-
-.hero-content h1 {
-    color: white; 
-    font-size: 3.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.hero-content p {
-    font-size: 1.25rem;
-}
-
-/* -------------------------------------------
- * 6. CLASSES PAGE: SPECIAL OFFER BOX
- * -------------------------------------------
- */
-
-.offer-box {
-    border: 3px solid var(--primary-color);
-    padding: 1.5rem;
-    border-radius: 8px;
-    background-color: rgba(143, 188, 143, 0.1); /* Very light green background */
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.offer-box h3 {
-    color: var(--text-color); /* Use charcoal for high contrast */
-}
-
-.class-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    margin-bottom: 1.5rem;
-    transition: transform 0.3s;
-}
-
-.class-card:hover {
-    transform: translateY(-5px);
-}
-
-/* -------------------------------------------
- * 7. FOOTER
- * -------------------------------------------
- */
-
-footer {
-    background-color: var(--text-color); /* Charcoal Grey background */
-    color: #f1f1f1; /* Light text for contrast */
-    padding: 3rem 0;
-    font-size: 0.9rem;
-}
-
-footer a {
-    color: var(--primary-color); /* Sage Green links in the footer */
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-footer a:hover {
-    color: var(--secondary-color);
-    text-decoration: underline;
-}
-
-.social-icons a {
-    font-size: 1.5rem;
-    margin-right: 15px;
+/* --- Typography --- */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif; /* Fancy font for headings */
     color: var(--primary-color);
 }
 
+/* --- Modern Header --- */
+header {
+    background-color: var(--white);
+    padding: 15px 5%;
+    display: flex; /* Makes items sit side-by-side */
+    justify-content: space-between; /* Pushes Logo left, Nav right */
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Soft shadow */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
-/* -------------------------------------------
- * 8. MEDIA QUERIES (Responsiveness)
- * -------------------------------------------
- */
+.logo-container {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-    .hero-content p {
-        font-size: 1rem;
-    }
-    .navbar-collapse {
-        text-align: center;
-        background-color: var(--bg-color);
-    }
+.logo-container i {
+    color: var(--secondary-color); /* Gold Icon */
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+/* --- Hero Section Update (The Image Overlay) --- */
+#hero-section {
+    /* *** PASTE YOUR NEW IMAGE URL HERE *** */
+    background-image: url('YOUR_NEW_HIGH_QUALITY_IMAGE_URL_HERE'); 
     
-    /* Center the footer columns on mobile */
-    footer .col-md-4 {
-        text-align: center;
-        margin-bottom: 1.5rem;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    /* ... rest of the code ... */
+}
+.hero-text-container {
+    background-color: rgba(255, 255, 255, 0.9); /* White box see-through */
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 700px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.hero-text-container h2 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hero-text-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Modern Pill Button */
+.btn-success {
+    background-color: var(--primary-color) !important;
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 12px 35px !important;
+    font-size: 1rem !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #6c9a6c !important; /* Darker green */
+    transform: translateY(-3px); /* Moves up slightly */
+    box-shadow: 0 5px 15px rgba(143, 188, 143, 0.4);
+}
+/* --- FEATURES SECTION --- */
+#features {
+    padding: 7% 10%; /* Top/Bottom padding and side padding */
+    background-color: #f8f8f8; /* Light background to separate it */
+}
+
+.feature-box {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.feature-box h3 {
+    font-size: 1.5rem;
+    color: #4CAF50; /* A nice green color */
+    margin-top: 10px;
+}
+
+.feature-box i {
+    color: #4CAF50; /* Style the icons */
+}
+
+/* Ensure the features section also collapses nicely on small screens */
+@media (max-width: 768px) {
+    .feature-box {
+        border-bottom: 1px solid #eee; /* Add a line to separate them on mobile */
+    }
+    .feature-box:last-child {
+        border-bottom: none;
     }
 }
 
-/* Small devices (phones, 576px and up) */
-@media (max-width: 576px) {
-    body {
-        padding-top: 56px;
+/* --- 
+   Responsive Design (Fix 2.6) 
+   This makes the site look good on mobile phones.
+--- */
+@media (max-width: 768px) {
+    nav a {
+        /* Stack navigation links vertically */
+        display: block;
+        margin: 10px 0;
     }
-    .hero-section {
-        height: 60vh;
+
+    .signup-box {
+        /* Stack the form and price info vertically */
+        flex-direction: column;
     }
-    .hero-content h1 {
-        font-size: 2rem;
+
+    h1 {
+        font-size: 28px;
     }
-    .btn-custom-pill {
-        width: 100%;
-        margin-top: 10px;
+
+    h2 {
+        font-size: 24px;
     }
 }
