@@ -1,4 +1,4 @@
-Mind Balance: Holistic Wellness Studio - Project Report
+# Mind Balance: Holistic Wellness Studio - Project Report
 
 This document serves as the final report for the Mind Balance website project, detailing the planning, design, feature implementation, testing, and deployment processes. The project utilizes HTML5, CSS3, JavaScript, and the Bootstrap framework to deliver a fully responsive, professional website for a wellness studio.
 
