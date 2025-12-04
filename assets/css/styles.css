@@ -20,11 +20,17 @@ body {
     line-height: 1.6;
 }
 
+/* Custom Utility Class for Light Background */
+.bg-light-sage {
+    /* Define the light sage background color */
+    background-color: #f0f7f4; 
+}
 /* --- Typography --- */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif; /* Fancy font for headings */
     color: var(--primary-color);
 }
+
 /* --- Header Styling: Logo Fix & 4-Tab Navigation --- */
 header {
     display: flex;
