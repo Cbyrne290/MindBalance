@@ -97,7 +97,7 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 
 ## Features
 
-### 1. Navigation Bar and Header
+###  Navigation Bar and Header
 * **4-Tab Navigation:** Consistent navigation bar across all four pages (`Home`, `Classes`, `About`, `Contact`).
 * **Styled Logo:** The logo (`Mind Balance`) uses the Sage Green icon and Playfair Display font for immediate brand recognition.
   All the pages have a similar navigation bar, which is designed to be responsive to all devices all the way from a mobile phone to a laptop.
@@ -110,7 +110,7 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 **Laptop**
 <img width="2880" height="120" alt="image" src="https://github.com/user-attachments/assets/578e630d-fd04-4f41-a5fa-a71f7ab83283" />
 
-### 2. Custom Styling & Responsiveness
+###  Custom Styling & Responsiveness
 
 * **Custom Buttons:** The main call-to-action button uses a custom "pill" shape and the primary Sage Green color, overriding default Bootstrap styles.
 <img width="1318" height="500" alt="image" src="https://github.com/user-attachments/assets/d89f51d7-e899-492e-a8e5-0fae691950f8" />
@@ -121,7 +121,7 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 * **`bg-light-sage` Utility Class:** A custom utility class was created and applied to the Classes page to provide visual separation between sections.
 <img width="2880" height="986" alt="image" src="https://github.com/user-attachments/assets/15428b5d-3c87-4d21-8af1-8d08f0acf898" />
 
-### 3. Core Pages
+###  Core Pages
 
 * **Home Page (`index.html`):** Features the Parallax Hero Image and the 3-column Features/Benefits section.
 <img width="2878" height="1626" alt="image" src="https://github.com/user-attachments/assets/d39f985c-9066-4c9c-a623-9e5d3e2ae8b8" />
@@ -135,14 +135,55 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 * **Contact Page (`contact.html`):** Inludes a clear contact page for users to message are team and get quick and helpfull answers any problems they might have.
 <img width="2880" height="1620" alt="image" src="https://github.com/user-attachments/assets/b985d203-af17-4cfa-a185-f7dcdb43a708" />
 
+### Wireframes
 
-### 4. Functionality
+* **Home Page**
+  -**Mobile**
+  <img width="860" height="1132" alt="image" src="https://github.com/user-attachments/assets/1752940e-1f3c-4b50-bb83-88c9973e3277" />
+
+  -**Tablet**
+<img width="750" height="898" alt="image" src="https://github.com/user-attachments/assets/d02b525e-beec-43c3-9073-ca2d36ff4258" />
+
+-**Laptop**
+<img width="1854" height="1064" alt="image" src="https://github.com/user-attachments/assets/e5a8c93e-7b55-4dfe-8245-5316ce933b46" />
+
+* **Classes Page**
+  -**Mobile**
+  <img width="880" height="1136" alt="image" src="https://github.com/user-attachments/assets/8d434a9f-08be-47b1-be8b-7cf600fe1609" />
+
+  -**Tablet**
+<img width="736" height="900" alt="image" src="https://github.com/user-attachments/assets/76ffc6a9-44f1-4755-b963-d6b852185110" />
+
+-**Laptop**
+<img width="1856" height="1146" alt="image" src="https://github.com/user-attachments/assets/bd485392-e31e-457e-97f5-a2d0d78d2ad0" />
+
+* **About Page**
+  -**Mobile**
+  <img width="864" height="1130" alt="image" src="https://github.com/user-attachments/assets/5b93fb7a-3975-43d7-a2a2-66e632f6e856" />
+
+-**Tablet**
+<img width="732" height="930" alt="image" src="https://github.com/user-attachments/assets/a085e745-f6de-4c94-a91f-1e501a3bd4e4" />
+
+-**Laptop**
+<img width="1856" height="1150" alt="image" src="https://github.com/user-attachments/assets/9602056a-2b5c-4e73-ac5f-4956ba653b87" />
+
+* **Contact Page**
+  -**Mobile**
+  <img width="890" height="1130" alt="image" src="https://github.com/user-attachments/assets/4b67c01d-0061-48a2-a5cb-2640fabb06a1" />
+
+  -**Tablet**
+<img width="726" height="938" alt="image" src="https://github.com/user-attachments/assets/c0947eca-0c0f-4bb6-9a95-7da599bfa188" />
+
+-**Laptop**
+<img width="1854" height="1144" alt="image" src="https://github.com/user-attachments/assets/f17217b2-3dd3-411e-8446-c5ec509841b5" />
+
+###  Functionality
 * **Form Submission Alerts:** Both the main Contact form (`contact.html`) and the Registration form (`classes.html`) provide a simple JavaScript pop-up alert to confirm submission, giving the user immediate feedback.
 * **Modern Footer:** A 3-column structured footer provides easy access to Brand info, Contact details, and Social Media links on all pages.
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 * **HTML5**
 * **CSS3**
