@@ -79,7 +79,9 @@ Fonts were chosen from Google Fonts.
 * **Body Text:** **Lato**, a clean, highly readable sans-serif font used for all body text, navigation, and form labels, ensuring accessibility.
 
 ### Logo
-Logo was created with a free online tool called looka.com
+Logo was created with a free online tool called [looka](https://looka.com/)
+
+<img width="536" height="126" alt="image" src="https://github.com/user-attachments/assets/d69ec02f-71e8-4f36-b099-53197fca4687" />
 
 ### Imagery
 
