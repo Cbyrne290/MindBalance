@@ -27,14 +27,19 @@ Mind Balance is a multi-page, responsive website designed for a modern wellness 
     - [Functionality](#Functionality)
     - [Wireframes](#wireframes)
 
-- [Colors and fonts](#colors-and-fonts)
-- [Deployment](#deployment)
+- [Functionality](#Functionality)
+- [Technology Used](#Technology-Used)
+
 - [Testing](#testing)
-    - [Lighthouse reports](#lighthouse-reports)
-    - [Resolved issues](#resolved-issues)
-    - [Remaining issues](#remaining-issues)
-- [Finished website](#finished-website)  
-- [Credits](#credits)
+  -[Functional Testing](#functional-testing)
+  -[Validator Testing](#validator-testing)
+  - [Lighthouse reports](#lighthouse-reports)
+  
+  -[Deployment Status](#deployment-status)
+      -[Deployment History Proof](#deployment-history-proof)
+    
+
+  - [Credits](#credits)
 ---
 ##  User Experience (UX)
 
