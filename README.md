@@ -121,6 +121,11 @@ The website was extensively tested across multiple devices and viewport sizes to
 
 ### Validator Testing
 The HTML and CSS have been checked for errors. 
+
+
+
+CSS have been validated with jigsaw.w3.org without any errors
+
 <img width="2878" height="770" alt="image" src="https://github.com/user-attachments/assets/7ca95f2d-ef21-41dc-8235-34655211ecd1" />
 ---
 # Testing, Validation, and Deployment
