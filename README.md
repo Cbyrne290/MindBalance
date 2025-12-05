@@ -241,8 +241,7 @@ Deployment Method: Deployed from the main branch.
 
 Live Site URL: [Finished Site](https://cbyrne290.github.io/MindBalance/)
 
-Repository URL: [Insert GitHub Repository Link Here]
-
+Repository URL: [Respository URL](https://github.com/Cbyrne290/MindBalance)
 <img width="1174" height="432" alt="image" src="https://github.com/user-attachments/assets/a547de14-f276-4741-8b51-c3dca4eb2ae7" />
 
 * **Deployment History Proof**
