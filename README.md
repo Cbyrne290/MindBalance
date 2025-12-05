@@ -84,11 +84,20 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 
 ---
 
-## 💻 Features
+## Features
 
-### 1. Navigation and Header
+### 1. Navigation Bar and Header
 * **4-Tab Navigation:** Consistent navigation bar across all four pages (`Home`, `Classes`, `About`, `Contact`).
 * **Styled Logo:** The logo (`Mind Balance`) uses the Sage Green icon and Playfair Display font for immediate brand recognition.
+  All the pages have a similar navigation bar, which is designed to be responsive to all devices all the way from a mobile phone to a laptop.
+  below you can see the similar looking navigation bar on different sized devices to compare.
+
+**Mobile Phone**
+<img width="1179" height="375" alt="image" src="https://github.com/user-attachments/assets/2cf43d7f-3294-4b0c-8868-f66adac472d4" />
+**Tablet**
+<img width="1599" height="196" alt="image" src="https://github.com/user-attachments/assets/476f6015-f542-4a78-b641-af6b2d2ad5db" />
+**Laptop**
+<img width="2880" height="120" alt="image" src="https://github.com/user-attachments/assets/578e630d-fd04-4f41-a5fa-a71f7ab83283" />
 
 ### 2. Custom Styling & Responsiveness
 * **Custom Buttons:** The main call-to-action button uses a custom "pill" shape and the primary Sage Green color, overriding default Bootstrap styles.
