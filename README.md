@@ -238,6 +238,17 @@ I have tested my site on performance, accessibility, SEO and best practices. I s
 
 <img width="1946" height="1058" alt="image" src="https://github.com/user-attachments/assets/512d37ce-a3cd-421e-99ed-b31ce0a46372" />
 
+---
+
+### Social Links
+All social links have been tested and are working 
+
+<img width="2874" height="1288" alt="image" src="https://github.com/user-attachments/assets/fb3e04b7-1a5b-4ec5-8962-cd037df58242" />
+
+<img width="2856" height="1552" alt="image" src="https://github.com/user-attachments/assets/3d45a9d2-fda6-4a8b-b9d9-1b957b2c92e7" />
+
+<img width="2870" height="1560" alt="image" src="https://github.com/user-attachments/assets/d4c66ed7-d50c-4d98-b8fb-f37d902066a6" />
+
 * **Deployment Status**
 
 The Mind Balance project is hosted on GitHub and deployed via the GitHub Pages service.
