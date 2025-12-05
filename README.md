@@ -172,8 +172,12 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 ---
 ###  Functionality
 * **Form Submission Alerts:** Both the main Contact form (`contact.html`) and the Registration form (`classes.html`) provide a simple JavaScript pop-up alert to confirm submission, giving the user immediate feedback.
-* **Modern Footer:** A 3-column structured footer provides easy access to Brand info, Contact details, and Social Media links on all pages.
+  <img width="2866" height="1336" alt="image" src="https://github.com/user-attachments/assets/2ccaba61-9e03-441b-8107-f0dd62582197" />
 
+  <img width="2876" height="1192" alt="image" src="https://github.com/user-attachments/assets/4d7a8a11-fd52-469c-8b3e-2f66fedce4e2" />
+
+* **Modern Footer:** A 3-column structured footer provides easy access to Brand info, Contact details, and Social Media links on all pages.
+<img width="2876" height="454" alt="image" src="https://github.com/user-attachments/assets/1de00450-c855-4c07-acd4-e6cddd84a978" />
 ---
 
 ##  Technologies Used
@@ -181,9 +185,9 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 * **HTML5**
 * **CSS3**
 * **JavaScript**
-* **Bootstrap 4.5.2:** Used for responsive grid structure and basic form styling.
+* **Bootstrap:** Used for responsive grid structure and basic form styling.
 * **Google Fonts:** For 'Playfair Display' and 'Lato' typography.
-* **Font Awesome 5.15.4:** Used for all icons across the site (Logo, Features, Footer Contact).
+* **Looka:** Used for all icons across the site (Logo, Features, Footer Contact).
 
 ---
 
@@ -194,15 +198,16 @@ The website was extensively tested across multiple devices and viewport sizes to
 ### Functional Testing
 * **Navigation:** All four links (Home, Classes, About, Contact) successfully direct the user to the correct page.
 * **Forms:** Both the 'Get In Touch' form and the 'Registration' form correctly trigger a success alert upon submission.
-* **Custom Styling:** The Sage Green button (`btn-success`) and the custom border/text colors on the 'Introductory Offer' box render correctly, demonstrating successful CSS overrides.
+* **Custom Styling:** The Muted olive button (`btn-success`) and the custom border/text colors on the 'Introductory Offer' box render correctly, demonstrating successful CSS overrides.
 * **Footer Links:** Contact details are present, and social media links have correct `target="_blank"` and `aria-label` attributes for usability.
 
 ### 5.5 Validator Testing
 The HTML and CSS have been checked for errors. 
 
+HTML has been validated with validator.w3.org without any errors
 
-
-CSS have been validated with jigsaw.w3.org without any errors
+CSS has been validated with jigsaw.w3.org without any errors
+<img width="2876" height="384" alt="image" src="https://github.com/user-attachments/assets/2d0088cd-ca1b-4a2a-a6e5-4132682b3e1e" />
 
 <img width="2878" height="770" alt="image" src="https://github.com/user-attachments/assets/7ca95f2d-ef21-41dc-8235-34655211ecd1" />
 ---
@@ -211,6 +216,7 @@ The source code was validated against official standards to ensure compliance an
 HTML Validation: Passed W3C HTML Validator with no errors.
 
 CSS Validation: Passed W3C CSS Validator with no errors.
+
 
 * **Deployment Status**
 
