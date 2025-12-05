@@ -39,7 +39,7 @@ Mind Balance is a multi-page, responsive website designed for a modern wellness 
     - [Deployment History Proof](#deployment-history-proof)
     
 
-  - [Credits](#credits)
+- [Credits](#credits)
 ---
 ##  User Experience (UX)
 
