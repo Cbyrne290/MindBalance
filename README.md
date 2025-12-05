@@ -128,8 +128,6 @@ CSS have been validated with jigsaw.w3.org without any errors
 
 <img width="2878" height="770" alt="image" src="https://github.com/user-attachments/assets/7ca95f2d-ef21-41dc-8235-34655211ecd1" />
 ---
-# Testing, Validation, and Deployment
-
 * **Code Validation**
 
 The source code was validated against official standards to ensure compliance and best practices.
