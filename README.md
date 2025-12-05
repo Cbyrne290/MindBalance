@@ -238,13 +238,13 @@ Live Site URL: [Insert Live Site Link Here]
 
 Repository URL: [Insert GitHub Repository Link Here]
 
-[IMAGE: Screenshot of the GitHub Pages Settings page confirming successful deployment]
+<img width="1174" height="432" alt="image" src="https://github.com/user-attachments/assets/a547de14-f276-4741-8b51-c3dca4eb2ae7" />
 
 * **Deployment History Proof**
 
 The deployment history confirms that recent fixes were successfully processed and pushed to the live environment.
 
-[IMAGE: Screenshot of the GitHub Deployment History showing recent successful deployments]
+<img width="2858" height="1514" alt="image" src="https://github.com/user-attachments/assets/b684ab89-85a5-4259-a98a-11eb335b1543" />
 
 ## 👏 Credits
 
