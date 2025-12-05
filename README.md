@@ -53,13 +53,15 @@ As a potential new client, I want to:
 
 ---
 
-## 🎨 Design
+##  Design
 
 The design is built on a modern, natural, and calming color scheme, utilizing custom fonts to distinguish the brand.
 
 ### Colour Scheme
 
 The site uses a **Sage Green, Cream, and Charcoal** palette to evoke a sense of calm, nature, and professionalism.
+
+<img width="2880" height="992" alt="image" src="https://github.com/user-attachments/assets/78ae655c-87e1-411f-a0f6-7036e780b98e" />
 
 | Colour Name | HEX Code | Usage |
 | :--- | :--- | :--- |
