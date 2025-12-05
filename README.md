@@ -253,6 +253,10 @@ The deployment history confirms that recent fixes were successfully processed an
 
 ## 👏 Credits
 
+A special thanks to my mentor Marko_ci who have guided me and also deserve the credit for the pop effect on the cards.
+
+Thanks to friends who have helped me test the website and supported me.
+
 * **Code:** Developed entirely by Callum Byrne.
 * **Frameworks & Libraries:** Bootstrap, Looka, Google Fonts, coolors.
 * **Imagery:** The Hero section background image is sourced from Unsplash (URL provided in `styles.css`).
