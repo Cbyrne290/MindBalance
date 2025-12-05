@@ -25,8 +25,8 @@ Mind Balance is a multi-page, responsive website designed for a modern wellness 
     - [Custom Styling & Responsiveness](#Custom-Styling-&-Responsiveness)
     - [Core Pages](#Core-Pages)
     - [Functionality](#Functionality)
+    - [Wireframes](#wireframes)
 
-- [Wireframes](#wireframes)
 - [Colors and fonts](#colors-and-fonts)
 - [Deployment](#deployment)
 - [Testing](#testing)
@@ -139,13 +139,10 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 
 * **Home Page**
 
-  **Mobile**
   <img width="860" height="1132" alt="image" src="https://github.com/user-attachments/assets/1752940e-1f3c-4b50-bb83-88c9973e3277" />
 
-  **Tablet**
 <img width="750" height="898" alt="image" src="https://github.com/user-attachments/assets/d02b525e-beec-43c3-9073-ca2d36ff4258" />
 
-**Laptop**
 <img width="1854" height="1064" alt="image" src="https://github.com/user-attachments/assets/e5a8c93e-7b55-4dfe-8245-5316ce933b46" />
 
 * **Classes Page**
