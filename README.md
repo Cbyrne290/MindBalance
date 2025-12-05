@@ -239,8 +239,7 @@ The Mind Balance project is hosted on GitHub and deployed via the GitHub Pages s
 
 Deployment Method: Deployed from the main branch.
 
-Live Site URL: [
-](https://cbyrne290.github.io/MindBalance/)
+Live Site URL: [Finished Site](https://cbyrne290.github.io/MindBalance/)
 
 Repository URL: [Insert GitHub Repository Link Here]
 
