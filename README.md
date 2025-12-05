@@ -8,20 +8,24 @@ Mind Balance is a multi-page, responsive website designed for a modern wellness 
 ---
 ## Table of contents
 
-- [Introduction to project](#introduction-to-project)
-- [Goals](#goals)
-- [Overview of uers and needs](#overview-of-users-and-needs)  
-- [Specified user stories](#specified-user-stories)
-    - [Responsiveness and accessibility](#user-story-responsiveness-and-accessibility)
-    - [Contact information](#user-story-contact-information)
-    - [Find additional resources](#user-story-find-additional-resources)
-    - [Social media](#user-story-social-media)
-    - [Additional pictures](#user-story-additional-pictures)
-    - [Membership area, part 1](#user-story-membership-area-part-1)
-    - [Membership area, part 2](#user-story-membership-area-part-2)
-- [Discussion of user stories](#discussion-of-user-stories)
-- [Basic design of website and page requirements](#basic-design-of-website-and-page-requirements)
-- [Alternative outlines considered or tried](#alternative-outlines-considered-or-tried)
+- [User Experience](#User-Experience)
+- [Business Goals](#Business-Goals)
+- [Users Stories](#Users-Stories)  
+
+- [Design](#Design)
+- [Colour Scheme](#Colour-Scheme)
+- [Fonts](#Fonts)
+- [Headings](#Headings)
+- [Logo](#Logo)
+- [Imagery](#Imagery)
+    
+    
+- [Features](#Features)
+- [Navigation Bar & Header](#Navigation-Bar-&-Header)
+- [Custom Styling & Responsiveness](#Custom-Styling-&-Responsiveness)
+- [Core Pages](#Core-Pages)
+- [Functionality](#Functionality)
+
 - [Wireframes](#wireframes)
 - [Colors and fonts](#colors-and-fonts)
 - [Deployment](#deployment)
@@ -133,8 +137,8 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 
 
 ### 4. Functionality
-* **Form Submission Alerts (Fix 1.2):** Both the main Contact form (`contact.html`) and the Registration form (`classes.html`) provide a simple JavaScript pop-up alert to confirm submission, giving the user immediate feedback.
-* **Modern Footer (Fix 1.3):** A 3-column structured footer provides easy access to Brand info, Contact details, and Social Media links on all pages.
+* **Form Submission Alerts:** Both the main Contact form (`contact.html`) and the Registration form (`classes.html`) provide a simple JavaScript pop-up alert to confirm submission, giving the user immediate feedback.
+* **Modern Footer:** A 3-column structured footer provides easy access to Brand info, Contact details, and Social Media links on all pages.
 
 ---
 
