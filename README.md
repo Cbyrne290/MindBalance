@@ -1,6 +1,6 @@
 #  Mind Balance: Wellness Studio Website
 
-<img width="4000" height="3200" alt="image" src="https://github.com/user-attachments/assets/0a3bcf60-cc17-40f1-b506-b262aad83576" />
+<img width="2242" height="1308" alt="image" src="https://github.com/user-attachments/assets/a47f0f28-3e48-4e9b-a406-c2406ede0e92" />
 
 Mind Balance is a multi-page, responsive website designed for a modern wellness studio offering yoga, meditation, and mindfulness classes. The site aims to provide a calming, professional user experience while driving class sign-ups and registrations through clear calls to action.
 
