@@ -205,11 +205,23 @@ The website was extensively tested across multiple devices and viewport sizes to
 The HTML and CSS have been checked for errors. 
 
 HTML has been validated with validator.w3.org without any errors
+* **index.html**
+<img width="2866" height="1436" alt="image" src="https://github.com/user-attachments/assets/b84441e3-47f6-4896-8375-34d479a8d787" />
+
+* **contact.html**
+<img width="2858" height="1442" alt="image" src="https://github.com/user-attachments/assets/e88779e7-3b70-477d-aa98-71ac78bb8d7b" />
+
+* **classes.html**
+<img width="2866" height="1448" alt="image" src="https://github.com/user-attachments/assets/810b0722-2ab2-4547-a554-3d0984d7635a" />
+
+* **about.html**
+<img width="2870" height="1442" alt="image" src="https://github.com/user-attachments/assets/d07ea4c8-a43b-4aaa-9ec3-77a86dc6b631" />
 
 CSS has been validated with jigsaw.w3.org without any errors
 <img width="2876" height="384" alt="image" src="https://github.com/user-attachments/assets/2d0088cd-ca1b-4a2a-a6e5-4132682b3e1e" />
 
 <img width="2878" height="770" alt="image" src="https://github.com/user-attachments/assets/7ca95f2d-ef21-41dc-8235-34655211ecd1" />
+
 ---
 The source code was validated against official standards to ensure compliance and best practices.
 
