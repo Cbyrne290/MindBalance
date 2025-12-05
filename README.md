@@ -109,7 +109,7 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 
 ---
 
-## 🧪 Testing
+## 5. Testing
 
 The website was extensively tested across multiple devices and viewport sizes to ensure responsiveness and correct functionality.
 
@@ -119,7 +119,7 @@ The website was extensively tested across multiple devices and viewport sizes to
 * **Custom Styling:** The Sage Green button (`btn-success`) and the custom border/text colors on the 'Introductory Offer' box render correctly, demonstrating successful CSS overrides.
 * **Footer Links:** Contact details are present, and social media links have correct `target="_blank"` and `aria-label` attributes for usability.
 
-### Validator Testing
+### 5.5 Validator Testing
 The HTML and CSS have been checked for errors. 
 
 
@@ -128,8 +128,6 @@ CSS have been validated with jigsaw.w3.org without any errors
 
 <img width="2878" height="770" alt="image" src="https://github.com/user-attachments/assets/7ca95f2d-ef21-41dc-8235-34655211ecd1" />
 ---
-* **Code Validation**
-
 The source code was validated against official standards to ensure compliance and best practices.
 
 HTML Validation: Passed W3C HTML Validator with no errors.
