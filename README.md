@@ -73,7 +73,7 @@ The site uses a **Muted Olive, Porcelain, Graphite and Light Bronze** palette to
 | **Light Bronze** | `#d4a373` | Secondary accent color, used sparingly in the footer titles. |
 
 ### Fonts
-Fonts were chosen from Google Fonts.
+Fonts were chosen from [Google Fonts](https://fonts.google.com/).
 
 * **Headings (`h1`, `h2`, `h3`):** **Playfair Display**, a serif font used for its elegant and sophisticated appearance, reinforcing the quality of the brand.
 * **Body Text:** **Lato**, a clean, highly readable sans-serif font used for all body text, navigation, and form labels, ensuring accessibility.
