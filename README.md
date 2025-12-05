@@ -218,8 +218,6 @@ HTML has been validated with validator.w3.org without any errors
 <img width="2870" height="1442" alt="image" src="https://github.com/user-attachments/assets/d07ea4c8-a43b-4aaa-9ec3-77a86dc6b631" />
 
 CSS has been validated with jigsaw.w3.org without any errors
-<img width="2876" height="384" alt="image" src="https://github.com/user-attachments/assets/2d0088cd-ca1b-4a2a-a6e5-4132682b3e1e" />
-
 <img width="2878" height="770" alt="image" src="https://github.com/user-attachments/assets/7ca95f2d-ef21-41dc-8235-34655211ecd1" />
 
 ---
@@ -251,5 +249,5 @@ The deployment history confirms that recent fixes were successfully processed an
 ## 👏 Credits
 
 * **Code:** Developed entirely by Callum Byrne.
-* **Frameworks & Libraries:** Bootstrap, Font Awesome, Google Fonts.
+* **Frameworks & Libraries:** Bootstrap, Looka, Google Fonts, coolors.
 * **Imagery:** The Hero section background image is sourced from Unsplash (URL provided in `styles.css`).
