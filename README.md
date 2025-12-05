@@ -35,7 +35,7 @@ Mind Balance is a multi-page, responsive website designed for a modern wellness 
     - [Validator Testing](#validator-testing)
     - [Lighthouse reports](#lighthouse-reports)
   
--[ Deployment Status](#deployment-status)
+- [ Deployment Status](#deployment-status)
     - [Deployment History Proof](#deployment-history-proof)
     
 
