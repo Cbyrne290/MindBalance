@@ -101,13 +101,20 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 
 ### 2. Custom Styling & Responsiveness
 * **Custom Buttons:** The main call-to-action button uses a custom "pill" shape and the primary Sage Green color, overriding default Bootstrap styles.
-* **Offer Box Overrides (Fix 2.3):** Custom CSS was added to ensure the special offer box border is Sage Green and the internal text/underline is Charcoal, overriding strong Bootstrap defaults.
+* **Offer Box Overrides:** Custom CSS was added to ensure the special offer box border is Sage Green and the internal text/underline is Charcoal, overriding strong Bootstrap defaults.
 * **`bg-light-sage` Utility Class:** A custom utility class was created and applied to the Classes page to provide visual separation between sections.
 
 ### 3. Core Pages
-* **Classes Page (`classes.html`):** Includes a clear Class Schedule and an embedded, working **Registration Form** for direct client sign-ups.
-* **About Page (`about.html`):** Features detailed Company History and the studio's Mission & Values, using the cohesive design structure.
+
 * **Home Page (`index.html`):** Features the Parallax Hero Image and the 3-column Features/Benefits section.
+<img width="2878" height="1626" alt="image" src="https://github.com/user-attachments/assets/d39f985c-9066-4c9c-a623-9e5d3e2ae8b8" />
+* **Classes Page (`classes.html`):** Includes a clear Class Schedule and an embedded, working **Registration Form** for direct client sign-ups.
+ <img width="2880" height="1624" alt="image" src="https://github.com/user-attachments/assets/cd6af61a-0412-496e-a148-8fb04f839bfa" />
+* **About Page (`about.html`):** Features detailed Company History and the studio's Mission & Values, using the cohesive design structure.
+<img width="2880" height="1624" alt="image" src="https://github.com/user-attachments/assets/98779bb9-31a3-49b5-a83d-f06bdfefd810" />
+**Contact Page** (`contact.html`):** Inludes a clear contact page for users to message are team and get quick and helpfull answers any problems they might have.
+<img width="2880" height="1620" alt="image" src="https://github.com/user-attachments/assets/b985d203-af17-4cfa-a185-f7dcdb43a708" />
+
 
 ### 4. Functionality
 * **Form Submission Alerts (Fix 1.2):** Both the main Contact form (`contact.html`) and the Registration form (`classes.html`) provide a simple JavaScript pop-up alert to confirm submission, giving the user immediate feedback.
