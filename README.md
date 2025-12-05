@@ -58,6 +58,7 @@ As a potential new client, I want to:
 The design is built on a modern, natural, and calming color scheme, utilizing custom fonts to distinguish the brand.
 
 ### Colour Scheme
+The colour scheme was picked with the help of the website Coolors,The palette reflects wellness through calming colours. **Muted Olive** symbolizes harmony and growth. The **Porcelain** background provides a clean, soft canvas that isnt to overwhelming on the users eyes. **Graphite** ensures strong readability for all text elements, while a subtle **Light Bronze** is used sparingly to draw attention to key interactive features.
 
 The site uses a **Muted Olive, Porcelain, Graphite and Light Bronze** palette to evoke a sense of calm, nature, and professionalism.
 
@@ -72,6 +73,7 @@ The site uses a **Muted Olive, Porcelain, Graphite and Light Bronze** palette to
 | **Light Bronze** | `#d4a373` | Secondary accent color, used sparingly in the footer titles. |
 
 ### Fonts
+Fonts were chosen from Google Fonts.
 
 * **Headings (`h1`, `h2`, `h3`):** **Playfair Display**, a serif font used for its elegant and sophisticated appearance, reinforcing the quality of the brand.
 * **Body Text:** **Lato**, a clean, highly readable sans-serif font used for all body text, navigation, and form labels, ensuring accessibility.
