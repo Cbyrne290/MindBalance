@@ -206,7 +206,7 @@ The website was extensively tested across multiple devices and viewport sizes to
 * **Custom Styling:** The Muted olive button (`btn-success`) and the custom border/text colors on the 'Introductory Offer' box render correctly, demonstrating successful CSS overrides.
 * **Footer Links:** Contact details are present, and social media links have correct `target="_blank"` and `aria-label` attributes for usability.
 
-### 5.5 Validator Testing
+### Validator Testing
 The HTML and CSS have been checked for errors. 
 
 HTML has been validated with validator.w3.org without any errors
@@ -232,6 +232,11 @@ HTML Validation: Passed W3C HTML Validator with no errors.
 
 CSS Validation: Passed W3C CSS Validator with no errors.
 
+---
+### Lighthouse Reports
+I have tested my site on performance, accessibility, SEO and best practices. I scored a 90 on SEO. I scored a 96 on best practices. I scored a 94 on accessibility and I scored a 98 on performance I had some minor drops in all factors. Overall this score is very good even with the room for improvement.
+
+<img width="1946" height="1058" alt="image" src="https://github.com/user-attachments/assets/512d37ce-a3cd-421e-99ed-b31ce0a46372" />
 
 * **Deployment Status**
 
