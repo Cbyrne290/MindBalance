@@ -78,9 +78,14 @@ Fonts were chosen from Google Fonts.
 * **Headings (`h1`, `h2`, `h3`):** **Playfair Display**, a serif font used for its elegant and sophisticated appearance, reinforcing the quality of the brand.
 * **Body Text:** **Lato**, a clean, highly readable sans-serif font used for all body text, navigation, and form labels, ensuring accessibility.
 
+### Logo
+Logo was created with a free online tool called looka.com
+
 ### Imagery
 
 The **Hero Section** on the Home page features a calming, natural image (a sunset or beach scene) set with a parallax effect to provide an immersive and tranquil first impression. All icons (using Font Awesome) are chosen to represent wellness, scheduling, and community.
+
+<img width="2833" height="1591" alt="image" src="https://github.com/user-attachments/assets/281e3e60-e8ab-490e-8142-856469b2a220" />
 
 ---
 
