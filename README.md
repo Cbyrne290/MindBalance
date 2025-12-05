@@ -59,16 +59,17 @@ The design is built on a modern, natural, and calming color scheme, utilizing cu
 
 ### Colour Scheme
 
-The site uses a **Sage Green, Cream, and Charcoal** palette to evoke a sense of calm, nature, and professionalism.
+The site uses a **Muted Olive, Porcelain, Graphite and Light Bronze** palette to evoke a sense of calm, nature, and professionalism.
 
 <img width="2880" height="992" alt="image" src="https://github.com/user-attachments/assets/78ae655c-87e1-411f-a0f6-7036e780b98e" />
 
+
 | Colour Name | HEX Code | Usage |
 | :--- | :--- | :--- |
-| **Sage Green** | `#8FBC8F` | Primary color, used for headings, icons, borders, and buttons. |
-| **Cream/Off-White** | `#FAF9F6` | Main background color (`--bg-color`). |
-| **Charcoal Grey** | `#333333` | Primary text color (`--text-color`), used for high-contrast text and the dark footer background. |
-| **Gold Accent** | `#d4a373` | Secondary accent color, used sparingly in the footer titles. |
+| **Muted Olive** | `#8FBC8F` | Primary color, used for headings, icons, borders, and buttons. |
+| **Porcelain** | `#FAF9F6` | Main background color (`--bg-color`). |
+| **Graphite** | `#333333` | Primary text color (`--text-color`), used for high-contrast text and the dark footer background. |
+| **Light Bronze** | `#d4a373` | Secondary accent color, used sparingly in the footer titles. |
 
 ### Typography
 
