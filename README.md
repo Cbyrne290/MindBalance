@@ -100,9 +100,15 @@ The **Hero Section** on the Home page features a calming, natural image (a sunse
 <img width="2880" height="120" alt="image" src="https://github.com/user-attachments/assets/578e630d-fd04-4f41-a5fa-a71f7ab83283" />
 
 ### 2. Custom Styling & Responsiveness
+
 * **Custom Buttons:** The main call-to-action button uses a custom "pill" shape and the primary Sage Green color, overriding default Bootstrap styles.
+<img width="1318" height="500" alt="image" src="https://github.com/user-attachments/assets/d89f51d7-e899-492e-a8e5-0fae691950f8" />
+  
 * **Offer Box Overrides:** Custom CSS was added to ensure the special offer box border is Sage Green and the internal text/underline is Charcoal, overriding strong Bootstrap defaults.
+<img width="912" height="306" alt="image" src="https://github.com/user-attachments/assets/7fcee4b0-dbc3-4148-be72-ae25545415bd" />
+
 * **`bg-light-sage` Utility Class:** A custom utility class was created and applied to the Classes page to provide visual separation between sections.
+<img width="2880" height="986" alt="image" src="https://github.com/user-attachments/assets/15428b5d-3c87-4d21-8af1-8d08f0acf898" />
 
 ### 3. Core Pages
 
